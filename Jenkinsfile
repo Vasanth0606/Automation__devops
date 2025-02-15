@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git ''
+                git 'https://github.com/Vasanth0606/Automation__devops.git'
             }
         }
         stage('Build Docker Image') {
